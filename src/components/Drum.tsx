@@ -17,7 +17,7 @@ export const Drum = ({ audioClip }: DrumProps) => {
 
     return (
         <button
-            className="drum-pad relative aspect-square rounded-xl ] text-amber-50 bg-amber-300 text-2xl md:text-xl w-32
+            className="drum-pad relative aspect-square rounded-xl ] text-amber-50 bg-amber-300 text-2xl md:text-xl w-32 sm:w-24 h-32 sm:h-24
             transition-all duration-150 transform-gpu
             active:scale-90 
             backdrop-blur-sm bg-opacity-80 hover:bg-opacity-100"
